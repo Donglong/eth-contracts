@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "eslint-config-prettier"],
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "artifacts": "readonly",
+    "contract": "readonly",
+    "web3": "readonly",
+    "extendEnvironment": "readonly",
+    "expect": "readonly"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  // Formatting using Prettier by default for all languages
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Formatting using Prettier for Solidity, overrides VSCode default.
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  // Configure todo-tree to exclude node_modules, dist, and compiled.
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules", "**/dist", "**/compiled"],
+  // Match TODO-APP in addition to other TODOs.
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]", "TODO-APP"],
+  "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "solidity.formatter": "forge",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
+}

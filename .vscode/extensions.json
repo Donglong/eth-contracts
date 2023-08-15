@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // Linting / Formatting
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    // Showing todo comments
+    "gruntfuggly.todo-tree",
+    // Solidity
+    "JuanBlanco.solidity",
+    "arcanis.vscode-zipfs"
+  ]
+}

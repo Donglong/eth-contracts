@@ -1,0 +1,28 @@
+{
+  "name": "eth-contracts",
+  "version": "1.0.0",
+  "description": "Smart Contract library for Solidity",
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart"
+  ],
+  "author": "Donald<zhangdl1995@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "forge fmt && prettier --loglevel warn --write . && eslint --fix",
+    "format:sol": "forge fmt",
+    "test": "forge test",
+    "clean": "forge clean",
+    "compile": "forge build"
+  },
+  "devDependencies": {
+    "eslint": "8.37.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.0",
+    "prettier": "2.8.7"
+  },
+  "packageManager": "yarn@3.6.1"
+}
